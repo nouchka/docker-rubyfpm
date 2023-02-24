@@ -1,4 +1,4 @@
-FROM ruby:3.1-slim
+FROM ruby:slim
 
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 RUN apt-get update && \
